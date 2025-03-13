@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(232, 238, 238);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px ;
+}
+
+.input_container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input_container input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+.input_container input[type="text"] {
+    width: 70%;
+}
+
+.input_container input[type="button"] {
+    background-color: rgb(65, 100, 78);
+    color: white;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+
+}
+
+.input_container input[type="button"]:hover {
+    background-color: rgb(142, 187, 172);
+}
+
+ul {
+    width: 70%;
+    max-width: 450px;
+
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 8px;
+    border: 0.123px solid rgb(204, 200, 200);
+    border-radius: 8px;
+    padding: 6px 8px;
+    background-color: rgb(225, 230, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+.btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+.completebtn {
+    color: green;
+}
+
+.completebtn:hover {
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+}
+
+.deletebtn {
+    color: red;
+}
+
+.deletebtn:hover {
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
